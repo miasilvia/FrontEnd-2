@@ -48,7 +48,7 @@ border-bottom: 2px solid rgb(231, 231, 231);
 }
 
 .nav2 {
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
 }
 .nav2-left{
@@ -56,14 +56,70 @@ border-bottom: 2px solid rgb(231, 231, 231);
 }
 .nav2-left li {
     float: left;
-    background-color: rgb(114, 114, 114);
-}
-.nav2-left li a{
-    display: block;
-    padding: 40px;
-    text-decoration: none;
-    color: black;
-  
-   
+    /* background-color: rgb(114, 114, 114); */
 }
 
+.nav2-left li a{
+    display: block;
+    padding-left: 40px;
+    padding-top: 30px;
+    text-decoration: none;
+    color: black 
+}
+
+.header {
+    display: flex;
+    /* background-color: rgb(136, 241, 38); */
+    justify-content: center;
+}
+
+.header img{
+    width: 90%;
+    height: 90%;
+    padding: 20px;
+}
+
+.content1{
+    display: flex;
+    justify-content: center;
+}
+
+.content1 p{
+    padding: 200px;
+    font-size: 30px;
+    
+}
+
+.content1 p a{
+    text-decoration: none;
+    color: blue;
+}
+
+.content2-row {
+    background-color: aquamarine;
+    position: relative;
+    display: flex;
+}
+
+.content2-background {
+background-color: #FBFFA7!important;
+width: 70%;
+height: 45vmax;
+margin-left: 30%;
+position: absolute;
+    top: 0;
+    z-index: 0;
+
+}
+
+.content2-media1 {
+/* background-color: black; */
+padding-left: 100px;
+position: absolute;
+}
+.content2-media1 img{
+    width: 60%;
+    height: 35vmax;
+    padding-left: 10%;
+    padding-top: 10%;
+}
