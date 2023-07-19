@@ -50,6 +50,7 @@ border-bottom: 2px solid rgb(231, 231, 231);
 .nav2 {
     /* background-color: aqua; */
     display: flex;
+    width: 100%;
 }
 .nav2-left{
     list-style-type: none;
