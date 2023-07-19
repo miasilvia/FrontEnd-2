@@ -285,17 +285,21 @@ div.content4 {
 }
 
 .content12 {
-    background-color: #FBFFA7;
+    /* background-color: #FBFFA7; */
     width: 100%;
     height: 400px;
     display: flex;
     justify-content: center;
     margin-bottom: 80px;
+    flex-wrap: wrap;
+    
 }
 .content12-left {
     background-color: aqua;
-    width: 35vmax;
-
+    /* width: 35vmax; */
+display: flex;
+    flex : 0 450px;
+    
 }
 .content12-left img {
     width: 100%;
@@ -304,12 +308,13 @@ div.content4 {
 .content12-right {
     background-color: #B1C5FF;
     display: flex;
+    flex : 0 450px;
     justify-content: center;
-    width: 30vmax;
-    padding-top: 160px;
+    align-items: center;
+    /* padding: 8%; */
 }
 .content12-right p{
-    width: 60%;
+    width: 70%;
     /* background-color: aquamarine; */
 }
 .content12-right p a{
