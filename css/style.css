@@ -206,7 +206,7 @@ div.content4 {
 
 .content6-right img{
     width: 100%;
-    margin-top: 10%;
+    margin-top: 7%;
     height: 100%;
 }
 
@@ -328,15 +328,15 @@ display: flex;
 
 .footer-bg{ 
     /* background-color: aquamarine; */
-    height: 500px;
+    height: 100%;
     display: flex;
     justify-content: center;
 }
+
 .footer-isi {
     /* background-color: #D5B3FF; */
     width: 80%;
     height: 100%;
-    
 }
 
 .footer-logo {
@@ -345,11 +345,12 @@ display: flex;
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
 .footer-right {
     /* background-color: #FBFFA7; */
     float: right;
     width: 30%;
-    font-size: 20px;
+   
 }
 
 .footer-right input {
@@ -358,6 +359,7 @@ display: flex;
     padding: 8px 8px;
     margin-top: 20px;
     background-color: rgb(232, 232, 232);
+    border: none;
 }
 .footer-right button {
     background-color: rgb(0, 75, 250);
@@ -419,4 +421,80 @@ display: flex;
     filter: invert(100%);
     border: 2px solid none;
     background-color: rgb(0, 255, 251);
+}
+
+.footer-left2-row {
+    /* background-color: antiquewhite; */
+    padding-top: 8%;
+    height: 8vmax;
+
+}
+.footer-left2 {
+    /* background-color: antiquewhite; */
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+
+.footer-left2 ul {
+    list-style-type: none;
+}
+
+.footer-left2 ul li a{
+     text-decoration: none;
+     color: black;
+}
+
+.footer-left2 ul li a:hover{
+    color: gray;
+}
+.footer-right2 {
+height: 100%;
+}
+
+#language {
+    width: 10%;
+    padding: 5px 5px;
+    background-color: rgb(221, 220, 220);
+    border: none;
+}
+#country {
+    width: 10%;
+    padding: 5px 5px;
+    background-color: rgb(221, 220, 220);
+    border: none;
+}
+
+.footer-end {
+    /* background-color: #FBFFA7; */
+    height: 80px;
+}
+.footer-end-left{
+    /* background-color: #D5B3FF; */
+    width: 70%;
+    float: left;
+}
+.footer-end-left ul{
+    list-style-type: none;
+}
+
+.footer-end-left li a{
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+    float: left;
+}
+.footer-end-left li a:hover{
+    color: grey;
+}
+
+.footer-end-right {
+    float: right;
+    /* background-color: #a19af2; */
+    height: 100%;
+}
+
+.footer-end-right span{
+    font-size: .875rem;
+    margin-right: 1em;
 }
